@@ -1,0 +1,11 @@
+Username,Password,FirstName,LastName,Email,OU
+user1,Password1,John,Doe,johndoe@alpha.corp,OU=Sales,DC=alpha,DC=corp
+user2,Password2,Jane,Smith,janesmith@alpha.corp,OU=Marketing,DC=alpha,DC=corp
+user3,Password3,Robert,Johnson,robertjohnson@alpha.corp,OU=HR,DC=alpha,DC=corp
+user4,Password4,Susan,Brown,susanbrown@alpha.corp,OU=Engineering,DC=alpha,DC=corp
+user5,Password5,Michael,Clark,michaelclark@alpha.corp,OU=Finance,DC=alpha,DC=corp
+user6,Password6,Lisa,Williams,lisawilliams@alpha.corp,OU=Sales,DC=alpha,DC=corp
+user7,Password7,David,Anderson,davidanderson@alpha.corp,OU=Marketing,DC=alpha,DC=corp
+user8,Password8,Laura,Miller,lauramiller@alpha.corp,OU=HR,DC=alpha,DC=corp
+user9,Password9,James,Johnson,jamesjohnson@alpha.corp,OU=Engineering,DC=alpha,DC=corp
+user10,Password10,Karen,Davis,karendavis@alpha.corp,OU=Finance,DC=alpha,DC=corp

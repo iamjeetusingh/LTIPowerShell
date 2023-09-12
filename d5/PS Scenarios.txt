@@ -1,0 +1,37 @@
+PowerShell Scenaios:
+---------------------
+
+1. Perform day-to-day task in PS & then convert it into a script.
+2. update the help cmdlet & also download an offline copy for isolated system.
+3. Search all the ".tmp" extensions from your system & remove them. But before that, Create a backup folder for all of them for safety reasons.
+4. Create 2 variables (say $a & $b), where $a consists of all the file names & $b consists of all directory names for a particular drive or folder.
+5. Display the DISK usage/Freespace in Gigabytes (GBs).
+6. Get the latest 10 eventlogs for application.
+7. In D or E drive, create a folder & dynamically create 100 text files in that folder.
+8. Add a newly created folder to the environmental variable ($env), safely.
+9. Create a script which seprated the names of files & folders in 2 different files.
+10. Create a program to count the number of SVCHOSTS service running on a single system.
+11. Create a working CLOCK using powershell, which shows exact time in HH:MM:SS (on the same scrren). Remember that the output length shouldnot exceed ONE line (means everytime time(seconds) changes, only one-line must be displayed as output)[HINT: use functions].
+12. Create a menu which asks for below functionalities with working:
+	a. Check IP address.
+	b. ping google.com
+	c. Check C: drive size
+	d. Open OUTLOOK.
+	e. Open Chrome/Web Browser.
+13. Setup a testing env, with a DC & a member server(2012R2). create 10 users (with naming converntion user1, user2,,, user10)
+14. Fetch the information of the users created above, & export that to a CSV file.
+15. Fetch the list of disabled users from on-prem AD (Create, disable & fetch the name if NOT present already).
+16. Get the running information of PROCESSES, save it in a CSV file with only 10 process names & CPU IDs. (uniquely)
+17. In the step 13, in server 2012R2, upgrade powershell V4 to V5 & update help.
+18. Create the below scenario using a single script:
+	a. Create 3 folders (source, stagging & destination).
+	b. copy the content from "SYSTEM32" folder to the source, using PS console.
+	c. Now configure the transfer of all these files into the stagging folder & use sleep 5(for delay in proceding further)
+	d. After data is copied to "STAGGING folder, move the data to "DESTINATION" folder.
+	e. after this create the content of SOURCE folder.
+19. User Powershell to create a calculator which performs add, subs, multiply, divide. It should ask again for input from user, untill user press 'Q' or 'q'.
+20. In the test env, with a DC & a member. Perform below task:
+	1. Install CHOCOLATEY on your computer system. 
+	2. From DC, Create a DSC configuration for member server to install "Adobe reader" & enable "WinRM" & "BITS" service.
+21. Create a script to Check which user is logged in to the PS. If it's a <computerName>/administrator, then send a GREETING!!! msg, else, ask user to ping to DC.	
+	
